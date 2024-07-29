@@ -1,0 +1,21 @@
+#board div {
+    width: 64px;
+    height: 64px;
+    background-color: #c23f3f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: bold;
+    box-shadow: 5px 5px 20px 2px #83d972;
+  }
+  
+  #board div:hover {
+    background-color: #4cb9ca;
+  }
+  
+  #board .disabled {
+    pointer-events: none;
+  }
+  
